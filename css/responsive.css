@@ -1,0 +1,334 @@
+@media (min-width: 768px) {
+    .container {
+        min-width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        max-width: 990px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1180px;
+    }
+}
+@media (min-width: 1300px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1380px;
+    }
+}
+@media (min-width: 1500px) {
+    .container {
+        max-width: 1470px;
+    }
+}
+@media (min-width: 1600px) {
+    .container {
+        max-width: 1550px;
+    }
+}
+
+@media (max-width:1500px) {
+    /*---------- Global CSS ----------*/
+    h1 {
+        font-size:54px;
+    }
+    h2 {
+        font-size:44px;
+    }
+
+    /*---------- Homepage CSS ----------*/
+    /*----- Banner Section CSS -----*/
+    .ms-bnr-contact {
+        margin-left: 100px;
+    }
+    /*----- Legal Services Section CSS -----*/
+    #ms-legal-sec .nav-link {
+        font-size: 24px;
+    }
+    /*----- Pricing Section CSS -----*/
+    #ms-pricing-sec .ms-pricing-box {
+        min-height: 660px;
+    }
+    /*----- Process Section CSS -----*/
+    #ms-process-sec .ms-process-box {
+        min-height: 525px;
+    }
+    /*----- Testimonial Section CSS -----*/
+    #ms-testimonial-sec .ms-testimonial-box {
+        min-height: 350px;
+    }
+    /*----- Contact Section CSS -----*/
+    .ms-contact-form {
+        padding-left: 50px;
+    }
+    .ms-footer-logo {
+        width: 360px;
+    }
+}
+
+@media (max-width:1400px) {
+    /*---------- Global CSS ----------*/
+    /* h1 {
+        font-size:54px;
+    }
+    h2 {
+        font-size:44px;
+    } */
+    h3 {
+        font-size:34px;
+    }
+
+    /*---------- Homepage CSS ----------*/
+    /*----- Banner Section CSS -----*/
+    .ms-bnr-contact {
+        margin-left: 60px;
+    }
+    /*----- Family & Corporate Lawyer Section CSS -----*/
+    #ms-counter .ms-counter-title {
+        font-size: 24px;
+    }
+    /*----- Legal Services Section CSS -----*/
+    .ms-legal-services-bg {
+        padding: 50px 40px;
+    }
+    /*----- Pricing Section CSS -----*/
+    /* #ms-pricing-sec .ms-pricing-box {
+        min-height: 660px;
+    } */
+    /*----- Process Section CSS -----*/
+    #ms-process-sec .ms-process-box {
+        min-height: 555px;
+    }
+    /*----- Testimonial Section CSS -----*/
+    /* #ms-testimonial-sec .ms-testimonial-box {
+        min-height: 350px;
+    } */
+    /*----- Contact Section CSS -----*/
+    /* .ms-contact-form {
+        padding-left: 50px;
+    }
+    .ms-footer-logo {
+        width: 360px;
+    } */
+}
+
+@media (max-width:1300px) {
+    /*---------- Global CSS ----------*/
+    h4 {
+        font-size:26px;
+    }
+
+    /*---------- Homepage CSS ----------*/
+    /*----- Pricing Section CSS -----*/
+    #ms-pricing-sec .ms-pricing-box {
+        min-height: 700px;
+    }
+    /*----- Process Section CSS -----*/
+    #ms-process-sec .ms-process-box {
+        min-height: 585px;
+    }
+    /*----- FAQs Section -----*/
+    #ms-faq-sec .nav-link {
+        font-size:21px;
+    }
+}
+
+@media (max-width:1100px) {
+    /*---------- Global CSS ----------*/
+    h2 {
+        font-size:38px;
+    }
+    h3 {
+        font-size:30px;
+    }
+    h4 {
+        font-size:23px;
+    }
+
+    /*---------- Homepage CSS ----------*/
+    /*----- Banner Section CSS -----*/
+    .ms-bnr-sec {
+        padding: 270px 0 100px;
+    }
+    .ms-bnr-contact {
+        margin: 70px 0 0 0;
+    }
+    .ms-bnr-sec h1 {
+        text-shadow: 2px 2px 5px rgb(0 0 0 / 15%);
+    }
+    .ms-hero-subheading {
+        text-shadow: 2px 2px 5px rgb(0 0 0 / 15%);
+    }
+    /*----- Legal Services Section CSS -----*/
+    .ms-legal-services-bg {
+        padding: 50px 20px;
+    }
+    #ms-legal-sec .nav-link {
+        font-size:21px;
+    }
+    /*----- Pricing Section CSS -----*/
+    #ms-pricing-sec .nav-link, #ms-faq-sec .nav-link {
+        font-size:27px;
+    }
+    #ms-pricing-sec .ms-pricing-box .ms-pricing-title {
+        font-size:30px;
+        padding: 10px 0;
+    }
+    #ms-pricing-sec .ms-pricing-box {
+        padding: 130px 20px 20px;
+        min-height: 600px;
+    }
+    #ms-pricing-sec .ms-pricing-box .ms-pricing-title {
+        top:5%;
+    }
+    /*----- Process Section CSS -----*/
+    #ms-process-sec .ms-process-box {
+        min-height: 435px;
+        margin-bottom: 50px;
+    }
+    #ms-process-sec {
+        padding-bottom:50px !important;
+    }
+    /*----- Testimonial Section CSS -----*/
+    #ms-testimonial-sec .ms-testimonial-box {
+        padding: 25px;
+    }
+    /*----- FAQs Section -----*/
+    #ms-faq-sec .ms-faq-bg-img {
+        margin-top:50px;
+    }
+    /*----- Contact Section CSS -----*/
+    .ms-contact-link {
+        font-size:25px;
+    }
+}
+
+@media (max-width:920px) {
+    /*---------- Global CSS ----------*/
+
+    /*---------- Homepage CSS ----------*/
+    /*----- Legal Services Section CSS -----*/
+    .ms-legal-services-bg {
+        margin: 0;
+    }
+    .ms-legal-services-bg {
+        padding: 80px 30px;
+    }
+    /*----- Pricing Section CSS -----*/
+    #ms-pricing-sec .ms-pricing-box {
+        padding: 130px 40px 40px;
+        min-height: 400px;
+        margin-bottom: 30px;
+    }
+    #ms-pricing-sec .nav-link, #ms-faq-sec .nav-link {
+        font-size:20px;
+    }
+    #ms-pricing-sec .ms-pricing-box h3 {
+        bottom:15%;
+    }
+    /*----- Process Section CSS -----*/
+    #ms-process-sec .ms-process-box {
+        min-height: 465px;
+    }
+    /*----- Contact Section CSS -----*/
+    .ms-contact-form {
+        padding-left: 15px;
+        margin-top: 60px;;
+    }
+}
+
+@media (max-width:550px) {
+    /*---------- Global CSS ----------*/
+    h1 {
+        font-size:36px;
+    }
+    h2 {
+        font-size:32px;
+    }
+    h3 {
+        font-size: 26px;
+    }
+    h4 {
+        font-size:20px;
+    }
+    h5 {
+        font-size:19px;
+    }
+    .ms-sec-pad {
+        padding: 50px 0;
+    }
+    .ms-primary-btn {
+        font-size:20px;
+        padding: 10px 15px;
+    }
+
+    /*---------- Header CSS ----------*/
+    header nav {
+        padding: 0 !important;
+    }
+    header nav .navbar-brand img {
+        width:110px;
+    }
+    .ms-contact-link {
+        font-size:18px;
+    }
+    .ms-contact-link img {
+        width: 30px;
+    }
+
+    /*---------- Homepage CSS ----------*/
+    /*----- Banner Section CSS -----*/
+    .ms-bnr-sec {
+        padding: 150px 0 50px;
+    }
+    .ms-hero-subheading{
+        font-size:22px;
+    }
+    .ms-bnr-contact {
+        margin: 20px 0 0 0;
+        padding: 25px;
+    }
+    /*----- Legal Services Section CSS -----*/
+    .ms-legal-services-bg {
+        padding: 50px 25px;
+    }
+    /*----- Pricing Section CSS -----*/
+    #ms-pricing-sec ul {
+        display: block;
+    }
+    #ms-pricing-sec .ms-pricing-box {
+        padding: 120px 30px 70px;
+        min-height: auto;
+    }
+    #ms-pricing-sec .ms-pricing-box h3 {
+        bottom: 12%;
+    }
+    /*----- Process Section CSS -----*/
+    #ms-process-sec .ms-process-box {
+        min-height: auto;
+    }
+    /*----- Testimonial Section CSS -----*/
+    #ms-testimonial-sec .ms-testimonial-box {
+        padding: 15px;
+        min-height: auto;
+        margin-bottom: 30px;
+    }
+    #ms-testimonial-sec .ms-spacer-30 {
+        height: 0px;
+    }
+    /*----- FAQs Section -----*/
+    #ms-faq-sec ul {
+        display: block;
+    }
+    /*----- Contact Section CSS -----*/
+    #ms-contact-sec {
+        padding: 50px 0;
+    }
+}

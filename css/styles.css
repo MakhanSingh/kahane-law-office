@@ -1,0 +1,479 @@
+/*---------- Global CSS ----------*/
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #121212;
+}
+h1 {
+    font-size:59px;
+    color:#ea9423;
+}
+h2 {
+    font-size:49px;
+}
+h3 {
+    font-size:42px;
+}
+h4 {
+    font-size: 30px;
+}
+h5 {
+    font-size:24px;
+}
+h6 {
+    font-size:18px;
+}
+p {
+    font-size:16px;
+    line-height:2em;
+}
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    line-height: 1.3em;
+}
+.ms-font-weight-medium {
+    font-weight:500;
+}
+.ms-spacer-15, 
+.ms-spacer-30 {
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+.ms-spacer-15 {
+    height:15px;
+}
+.ms-spacer-30 {
+    height: 30px; 
+}
+
+.ms-primary-btn {
+    padding:10px 20px;
+    border-radius: 5px;
+    background: #ea9423;
+    color: #fff;
+    transition: 0.3s all linear;
+    font-size: 23px;
+}
+.ms-primary-btn:hover {
+    background: #1c3a55;
+    color: #fff;
+}
+
+.ms-sec-pad {
+    padding: 100px 0;
+}
+
+ul.ms-orange-dot {
+    list-style-image: url('../images/dot-icon.png');
+}
+ul.ms-orange-dot li {
+    line-height: 1.9rem;
+}
+
+/*----- Header CSS -----*/
+header {
+    z-index: 9;
+}
+
+/*----- Footer CSS -----*/
+footer {
+    background: #353535;
+    padding: 25px 0;
+}
+.ms-copyright-txt {
+    font-size: 14px;
+    color: #b7b7b7;
+    font-weight: 300;
+}
+
+/*---------- Homepage CSS ----------*/
+/*----- Banner Section CSS -----*/
+.ms-bnr-sec {
+    background: url('../images/banner.jpg') bottom center no-repeat;
+    background-size: cover;
+    padding: 180px 0 140px;
+}
+.ms-hero-subheading {
+    font-size:34px;
+}
+.ms-bnr-contact {
+    background: rgba(28, 58, 85, 0.8);
+    border-radius: 10px;
+    padding: 50px;
+    margin-left: 200px;
+}
+input, textarea {
+    font-size:16px;
+    padding:10px 10px 10px 5px;
+    display:block;
+    width: 100%;
+    border:none;
+    border-bottom:1px solid #757575;
+    background-color: transparent;
+    color: #fff;
+}
+input:focus, textarea:focus { 
+    outline:none;
+}
+label {
+    color:#fff;
+    font-size:15px;
+    font-weight: 300;
+    position:absolute;
+    left:15px;
+    top:10px;
+    transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+}
+input:focus ~ label, input:valid ~ label, textarea:focus ~ label, textarea:valid ~ label {
+    top:-10px;
+    font-size:14px;
+    color:#fff;
+}
+.bar { 
+    position:relative; 
+    display:block; 
+    width:100%; 
+}
+.bar:before, .bar:after {
+  content:'';
+  height:1px; 
+  width:0;
+  bottom:0px; 
+  position:absolute;
+  background:#fff; 
+  transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+input:focus ~ .bar:before, input:focus ~ .bar:after, textarea:focus ~ .bar:before, textarea:focus ~ .bar:after {
+  width:100%;
+}
+
+/*----- Family & Corporate Lawyer Section CSS -----*/
+#ms-counter .ms-counter-number {
+    font-size: 71px;
+    color:#ea9423;
+}
+#ms-counter .ms-counter-title {
+    font-size: 28px;
+    color: #1c3a55;
+}
+#ms-counter .ms-border-right {
+    border-right: 1px solid #e5e5e5;
+}
+
+/*----- Legal Services Section CSS -----*/
+#ms-legal-sec .ms-side-img {
+    background: url('../images/services-image.jpg') no-repeat center !important;
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.ms-legal-services-bg {
+    background: url('../images/services-background-image.jpg') center no-repeat;
+    background-size: cover;
+    margin: 30px 0;
+    padding: 50px;
+}
+/* #ms-legal-sec .ms-legal-img {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+} */
+#ms-legal-sec .nav-link {
+    font-size:28px;
+    color: #fff;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    border-radius: 0;
+}
+#ms-legal-sec .ms-nav-numbers {
+    font-size: 21px;
+}
+#ms-legal-sec .nav-link .ms-nav-numbers {
+    background: #fff;
+    color: #1c3a55;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#ms-legal-sec .nav-link.active {
+    background: transparent;    
+}
+#ms-legal-sec .nav-link.active .ms-nav-numbers,
+#ms-legal-sec .nav-link:hover .ms-nav-numbers {
+    background: #ea9423;
+    color: #fff;
+}
+#ms-legal-sec .nav-link.active span,
+#ms-legal-sec .nav-link:hover span {
+    color:#ea9423;
+}
+#ms-legal-sec .nav-link .ms-nav-numbers, 
+#ms-legal-sec .nav-link span {
+    transition: 0.3s all linear;
+}
+
+/*----- Pricing Section CSS -----*/
+#ms-pricing-sec .nav-tabs, 
+#ms-faq-sec .nav-tabs {
+    border-bottom: 2px solid #b2b2b2;
+}
+.nav-tabs .nav-item {
+    margin-bottom: -2px;
+}
+#ms-pricing-sec .nav-link, 
+#ms-faq-sec .nav-link {
+    color:#b2b2b2;
+    font-size: 38px;
+    font-weight: 700;
+    transition: 0.4s all linear;
+}
+#ms-pricing-sec .nav-link.active, 
+#ms-pricing-sec .nav-link:hover, 
+#ms-faq-sec .nav-link.active, 
+#ms-faq-sec .nav-link:hover {
+    background: #1c3a55;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 2.939px 4.045px 6px 0px rgba(0, 0, 0, 0.11);
+}
+#ms-pricing-sec .ms-pricing-box {
+    box-shadow: 0px 6px 40px 0px rgba(0, 0, 0, 0.22);
+    background: #fff;
+    border-radius: 10px;
+    padding: 190px 40px 50px;
+    width: 97%;
+    margin: 0 auto;
+    min-height: 600px;
+}
+#ms-pricing-sec .ms-pricing-box .ms-pricing-title {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right:0;
+    margin: 0 auto;
+    display: block;
+    width: 97%;
+    font-size: 45px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+}
+#ms-pricing-sec .ms-pricing-box .ms-pricing-title:before {
+    content:' ';
+    position: absolute;
+    width: 18px;
+    height: 20px;
+    bottom: -14px;
+    left: 0px;
+    clip-path: polygon(50% 0%, 8% 100%, 100% 100%);
+    transform: rotate(-66deg);
+    z-index: -4;
+}
+#ms-pricing-sec .ms-pricing-box.ms-bronze-box .ms-pricing-title {
+    background: #b68047;
+}
+#ms-pricing-sec .ms-pricing-box.ms-silver-box .ms-pricing-title {
+    background: #989898;
+}
+#ms-pricing-sec .ms-pricing-box.ms-gold-box .ms-pricing-title {
+    background: #f2b72d;
+}
+#ms-pricing-sec .ms-pricing-box.ms-bronze-box .ms-pricing-title:before {
+    background: #916026;
+}
+#ms-pricing-sec .ms-pricing-box.ms-silver-box .ms-pricing-title:before {
+    background: #919191;
+}
+#ms-pricing-sec .ms-pricing-box.ms-gold-box .ms-pricing-title:before {
+    background: #b68915;
+}
+#ms-pricing-sec .ms-pricing-box h3 {
+    position: absolute;
+    bottom: 9%;
+    left: 0;
+    right: 0;
+}
+#ms-pricing-sec .ms-pricing-box.ms-bronze-box h3 {
+    color: #b68047;
+}
+#ms-pricing-sec .ms-pricing-box.ms-silver-box h3 {
+    color: #989898;
+}
+#ms-pricing-sec .ms-pricing-box.ms-gold-box h3 {
+    color: #f2b72d;
+}
+
+/*----- Process Section CSS -----*/
+#ms-process-sec {
+    background: url('../images/process-bg.jpg') center no-repeat;
+    background-size: cover;
+}
+#ms-process-sec h4 {
+    color:#1c3a55
+}
+#ms-process-sec .ms-process-box {
+    border-radius: 10px;
+    box-shadow: 0px 6px 40px 0px rgba(0, 0, 0, 0.07);
+    background: #fff;
+    padding: 55px 25px 30px;
+    border-bottom: 8px solid #e99321;
+    min-height: 485px;
+}
+#ms-process-sec .ms-process-box span {
+    position: absolute;
+    top: -20px;
+    width: 45px;
+    height: 45px;
+    background: #1c3a55;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 22px;
+    color: #fff;
+}
+#ms-process-sec .ms-process-box .ms-bottom-line {
+    font-size:20px;
+    color: #1c3a55;
+    font-weight: 500;
+}
+
+/*----- Testimonial Section CSS -----*/
+#ms-testimonial-sec .ms-testimonial-box {
+    display: flex;
+    align-items: start;
+    border-radius: 10px;
+    box-shadow: 0px 6px 40px 0px rgba(0, 0, 0, 0.07);
+    padding: 40px;
+    min-height: 310px;
+}
+.ms-testimonial-box .name {
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: -10px;
+}
+.ms-testimonial-box .reviews {
+    margin-top: -4px;
+    margin-bottom: -10px;
+}
+.ms-lite-color {
+    color: #70757a;
+    font-weight: 300;
+}
+
+/*----- FAQs Section -----*/
+#ms-faq-sec {
+    background: #f2f2f2;
+}
+#ms-faq-sec .nav-link {
+    color: #1c3a55;
+    font-size: 26px;
+    font-weight: 500;
+}
+.accordion .card {
+    border-bottom:1px solid #000 !important;
+    border-radius: 0;
+}
+.accordion .card,
+.accordion .card-header {
+    background: transparent;
+    border:none;
+}
+.accordion .card h2 {
+    font-size:18px;
+    font-weight: 500;
+    padding: 18px 5px;
+    cursor: pointer;
+    color: #000;
+}
+.accordion .card h2[aria-expanded="true"]:after {
+    content:'-';
+    font-size:25px;
+    color: #ea9423;
+    position: relative;
+    right: 2px;
+}
+.accordion .card h2:after {
+    content:'+';
+    font-size:25px;
+    color: #2081bf;
+    /* content: "\f067";
+    font-family: 'Font Awesome 5 Free'; */
+}
+.accordion .card h2[aria-expanded="true"] {
+    border-bottom:1px solid #000 !important;
+}
+#ms-faq-sec .ms-faq-bg-img {
+    background: url('../images/faq-side-image.png') center no-repeat;
+    background-size: cover;
+    padding: 28px;
+    border-radius: 10px;
+}
+#ms-faq-sec .ms-faq-bg-img > div {
+    border: 2px solid #fff;
+    padding:50px 30px 40px;
+}
+.text-decoration-none:hover {
+    text-decoration: none;
+}
+#ms-faq-sec .ms-orange-bg {
+    background: #ea9423;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin-top: 30px;
+}
+
+/*----- Contact Section CSS -----*/
+#ms-contact-sec {
+    background:url('../images/footer-background.jpg') center no-repeat;
+    background-size: cover;
+    padding:100px 0 40px;
+}
+.ms-divider {
+    border-bottom:1px solid rgba(255, 255, 255, 0.4);
+    width: 300px;
+    height: 2px;
+}
+.ms-contact-link {
+    font-size: 32px;
+    font-weight: bold;
+}
+.ms-contact-link a {
+    color: #fff;
+    transition: 0.3s all linear;
+}
+.ms-contact-link a:hover {
+    text-decoration: none;
+    color:#ea9423;
+}
+#ms-contact-sec form {
+    margin-top:35px;
+}
+#ms-contact-sec form input,
+#ms-contact-sec form textarea {
+    background: #fff;
+    border: 2px solid rgb(236, 236, 236);
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: #000;
+}
+#ms-contact-sec form input, 
+#ms-contact-sec form textarea {
+    color:#333;
+}
+.ms-contact-form {
+    padding-left: 100px;
+    border-left: 1px solid rgba(255, 255, 255, 0.4);
+}
